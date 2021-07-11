@@ -1,0 +1,75 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 0.9rem;
+   color: #555;
+}
+
+h1 {
+   margin-bottom: 1.5rem;
+   text-align: center;
+   font-weight: 300;
+}
+
+.number {
+   font-size: 0.6rem;
+   font-weight: 100;
+}
+
+.symbol {
+   font-size: 1.05rem;
+   font-weight: 600;
+}
+
+.element {
+   font-size: 0.57rem;
+}
+
+.property {
+   font-size: 0.5rem;
+   font-weight: 600;
+}
+
+ul {
+   list-style: none;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: repeat(18, 1fr);
+}
+
+.box {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0.5rem;
+   background-color: #f4f4f4;
+}
+
+.box:first-child {
+   justify-items: start;
+   grid-column: 1;
+}
+
+.box:nth-child(2) {
+   grid-column: 18;
+}
+
+.box:nth-child(5) {
+   grid-column: 13;
+}
+
+.box:nth-child(12) {
+   grid-column: 2;
+}
+
+.box:nth-child(13) {
+   grid-column: 13;
+}
