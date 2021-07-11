@@ -22,16 +22,16 @@ h1 {
 }
 
 .symbol {
-   font-size: 1.05rem;
+   font-size: 1.1rem;
    font-weight: 600;
 }
 
 .element {
-   font-size: 0.57rem;
+   font-size: 0.6rem;
 }
 
-.property {
-   font-size: 0.5rem;
+.group {
+   font-size: 0.6rem;
    font-weight: 600;
 }
 
@@ -42,6 +42,9 @@ ul {
 .container {
    display: grid;
    grid-template-columns: repeat(18, 1fr);
+   grid-auto-rows: minmax(2px, auto);
+   grid-gap: 0.2rem;
+   margin: 0 0.7rem;
 }
 
 .box {
@@ -49,7 +52,7 @@ ul {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 0.5rem;
+   padding: 0.65rem;
    background-color: #f4f4f4;
 }
 
@@ -72,4 +75,8 @@ ul {
 
 .box:nth-child(13) {
    grid-column: 13;
+}
+
+.box:nth-child(73) {
+   /* grid-row: 7 / 9; */
 }
