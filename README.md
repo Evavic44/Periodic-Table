@@ -24,6 +24,7 @@ These are a few things I recommend you should checkout if you're interested in t
 
 ### Chemical group colors
 <hr>
+
 | Color                    | Hex                                                                |
 | ------------------------ | ------------------------------------------------------------------ |
 | Non-metals               | ![#FEFFBD](https://via.placeholder.com/10/0a192f?text=+) `#FEFFBD` |
