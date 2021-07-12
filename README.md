@@ -24,14 +24,14 @@ These are a few things I recommend you should checkout if you're interested in t
 
 ### Chemical group colors
 <hr>
-
-#### Non-metals: #FEFFBD;
-#### Transition metal: #D3E0FF;
-#### Post transition metals: #CEFFC7;
-#### Alkaline earth: #DCC9FF;
-#### Metaloid: #DFEFC0;
-#### Halogen: #FEFFBD;
-#### Noble gas: #FEE7BD;
-#### Lanthanides: #CBFEFF;
-#### Actinides: #572E56;
-
+| Color                    | Hex                                                                |
+| ------------------------ | ------------------------------------------------------------------ |
+| Non-metals               | ![#FEFFBD](https://via.placeholder.com/10/0a192f?text=+) `#FEFFBD` |
+| Transition metal         | ![#D3E0FF](https://via.placeholder.com/10/0a192f?text=+) `#D3E0FF` |
+| Post transition metals   | ![#CEFFC7](https://via.placeholder.com/10/303C55?text=+) `#CEFFC7` |
+| Alkaline earth           | ![#DCC9FF](https://via.placeholder.com/10/8892b0?text=+) `#DCC9FF` |
+| Metaloid                 | ![#DFEFC0](https://via.placeholder.com/10/a8b2d1?text=+) `#DFEFC0` |
+| Halogen                  | ![#FEFFBD](https://via.placeholder.com/10/ccd6f6?text=+) `#FEFFBD` |
+| Noble gas                | ![#FCE1B4](https://via.placeholder.com/10/e6f1ff?text=+) `#FCE1B4` |
+| Lanthanides              | ![#CBFEFF](https://via.placeholder.com/10/64ffda?text=+) `#CBFEFF` |
+| Actinides                | ![#572E56](https://via.placeholder.com/10/64ffda?text=+) `#572E56` |
