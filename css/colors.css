@@ -1,3 +1,26 @@
+:root {
+   /* Elements */
+   --non-metals: #FEFFBD;
+   --transition-metals: #D3E0FF;
+   --post-transition-metals: #CEFFC7;
+   --alkaline-earth: #DCC9FF;
+   --metalloid: #DFEFC0;
+   --halogen: #FEFFBD;
+   --noble-gas: #FCE1B4;
+   --lanthanides: #CBFEFF;
+   --actinides: #572E56;
+}
+
 .bg-primary {
    background-color: #fff;
+}
+
+/* Glassphormisim */
+.box {
+   background: rgba(255, 255, 255, 0.25);
+   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(20.0px);
+   -webkit-backdrop-filter: blur(3.0px);
+   border: 1px solid rgba(255, 255, 255, 0.18);
+   border-radius: 3px; 
 }

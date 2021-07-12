@@ -1,3 +1,8 @@
+/* Color code */
+:root {
+   --bg-primary: linear-gradient(43deg, #9c138f 20%, #9905ff 36%, #9c138f 100%);
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -7,7 +12,8 @@
 body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 0.9rem;
-   color: #555;
+   color: #fff;
+   background-image: var(--bg-primary);
 }
 
 h1 {
@@ -53,7 +59,6 @@ ul {
    justify-content: center;
    align-items: center;
    padding: 0.65rem;
-   background-color: #f4f4f4;
 }
 
 .box:first-child {
@@ -75,8 +80,4 @@ ul {
 
 .box:nth-child(13) {
    grid-column: 13;
-}
-
-.box:nth-child(73) {
-   /* grid-row: 7 / 9; */
 }
