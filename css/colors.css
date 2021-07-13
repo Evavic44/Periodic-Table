@@ -1,15 +1,40 @@
-:root {
-   /* Elements */
-   --non-metals: #FEFFBD;
-   --transition-metals: #D3E0FF;
-   --post-transition-metals: #CEFFC7;
-   --alkaline-earth: #DCC9FF;
-   --metalloid: #DFEFC0;
-   --halogen: #FEFFBD;
-   --noble-gas: #FCE1B4;
-   --lanthanides: #CBFEFF;
-   --actinides: #572E56;
-}
+/* Elements */
+   .non-metals {
+      background: #00B6BC;
+   }
+
+   .transition-metals {
+      background: #F53951;
+   }
+
+   
+   .post-transition-metals {
+      background: #59CF6E;
+   }
+
+   .alkaline-earth {
+
+   }
+
+   .metalloid {
+      background: orange; 
+   } 
+
+   .halogen {
+      background: orangered;  
+   }
+
+   .noble-gas {
+      background: #1B70D2;
+   }
+
+   .lanthanides {
+
+   }
+
+   .actinides {
+      
+   }
 
 .bg-primary {
    background-color: #fff;
@@ -17,7 +42,7 @@
 
 /* Glassphormisim */
 .box {
-   background: rgba(255, 255, 255, 0.25);
+   /* background: rgba(255, 255, 255, 0.25); */
    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
    backdrop-filter: blur(20.0px);
    -webkit-backdrop-filter: blur(3.0px);
