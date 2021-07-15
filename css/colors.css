@@ -1,5 +1,7 @@
 /* Elements */
-   .non-metals {
+   .non-metals, 
+   .alkaline-earth, 
+   .actinides {
       background: #00B6BC;
    }
 
@@ -11,16 +13,8 @@
       background: #F53951;
    }
 
+   .metalloid,
    .alkali-metal {
-      background: crimson;
-   }
-
-   .alkaline-earth, 
-   .actinides {
-      background: #2d9c42;
-   }
-
-   .metalloid {
       background: orange; 
    } 
 
@@ -34,7 +28,7 @@
    }
 
    .bg-primary {
-      background-color: #fff;
+      background-color: #ffffff00;
 }
 
 /* Glassphormisim */
