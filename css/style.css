@@ -1,6 +1,6 @@
 /* Color code */
 :root {
-   --bg-primary: linear-gradient(43deg, #9c138f 20%, #9905ff 36%, #9c138f 100%);
+   --bg-primary: linear-gradient(43deg, #9c138f 20%, #9905ff 36%, #7c15c0 56%, #9c138f 100%);
 }
 
 * {
@@ -17,9 +17,14 @@ body {
 }
 
 h1 {
-   margin-bottom: 1.5rem;
+   margin: 1.5rem;
    text-align: center;
-   font-weight: 300;
+   font-weight: 600;
+   position: relative;
+}
+
+h1 .first {
+   background-color: orange;
 }
 
 .number {
@@ -41,26 +46,24 @@ h1 {
    font-weight: 600;
 }
 
-ul {
-   list-style: none;
-}
-
 .container {
    display: grid;
    grid-template-columns: repeat(18, 1fr);
    grid-auto-rows: minmax(10px, auto);
    grid-gap: 0.2rem;
-   margin: 0 0.7rem;
+   padding: 1rem;
 }
 
 .box {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   text-align: center;
    align-items: center;
    padding: 0.65rem;
 }
 
+/* Grid spans and positions */
 .box:first-child {
    justify-items: start;
    grid-column: 1;
