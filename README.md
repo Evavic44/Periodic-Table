@@ -19,8 +19,8 @@ This is a project that will test your CSS grid ability in building layouts.
 
 ### Recommendations
 These are a few things I recommend you should checkout if you're interested in this project.
-<div><a href="https://frontendmentor.io" target="_blank">Frontendmentor</a> challenges.</div>
-<div><a href="https://coolors.co" target="_blank">Coolors</a></div>
+<div><a href="https://frontendmentor.io">Frontendmentor</a> challenges.</div>
+<div><a href="https://coolors.co">Coolors</a></div>
 
 ### Chemical group colors
 <hr>
