@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-   margin: 1.5rem;
+   margin: 1.5rem 0;
    text-align: center;
    font-weight: 600;
    position: relative;
@@ -83,4 +83,9 @@ h1 .first {
 
 .box:nth-child(13) {
    grid-column: 13;
+}
+
+.box:nth-child(57), 
+.box:nth-child(103) {
+   border: none;
 }
