@@ -1,6 +1,6 @@
 /* Color code */
 :root {
-   --bg-primary: linear-gradient(43deg, #9c138f 20%, #9905ff 36%, #7c15c0 56%, #9c138f 100%);
+   --bg-primary: linear-gradient(to bottom, #9c138f,  #7c15c0);
 }
 
 * {
