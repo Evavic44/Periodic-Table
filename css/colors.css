@@ -1,3 +1,18 @@
+/* --------- Color code -----------
+Non-metals: #00B6BC;
+Transition metal: #4fbb62
+Post transition metals: #F53951; 
+Alkaline earth: #00B6BC;
+Metalloid: #ffa500;
+Halogen: #ff4500;
+Noble gas: #ce07ad
+Lanthanides: #ce07ad;
+Actinides: #00B6BC;
+Box: #ffffff80;
+----------------------------------
+* /
+
+
 /* Glassphormisim */
 .box {
    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
