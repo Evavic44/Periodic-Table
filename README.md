@@ -25,14 +25,18 @@ These are a few things I recommend you should checkout if you're interested in t
 ### Chemical group colors
 <hr>
 
-| Color                    | Hex                                                                |
-| ------------------------ | ------------------------------------------------------------------ |
-| Non-metals               | ![#FEFFBD](https://via.placeholder.com/10/0a192f?text=+) `#FEFFBD` |
-| Transition metal         | ![#D3E0FF](https://via.placeholder.com/10/0a192f?text=+) `#D3E0FF` |
-| Post transition metals   | ![#CEFFC7](https://via.placeholder.com/10/303C55?text=+) `#CEFFC7` |
-| Alkaline earth           | ![#DCC9FF](https://via.placeholder.com/10/8892b0?text=+) `#DCC9FF` |
-| Metalloid                | ![#DFEFC0](https://via.placeholder.com/10/a8b2d1?text=+) `#DFEFC0` |
-| Halogen                  | ![#FEFFBD](https://via.placeholder.com/10/ccd6f6?text=+) `#FEFFBD` |
-| Noble gas                | ![#FCE1B4](https://via.placeholder.com/10/e6f1ff?text=+) `#FCE1B4` |
-| Lanthanides              | ![#CBFEFF](https://via.placeholder.com/10/64ffda?text=+) `#CBFEFF` |
-| Actinides                | ![#572E56](https://via.placeholder.com/10/64ffda?text=+) `#572E56` |
+| Color                    | Hex                                                                                                                         |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Non-metals               | ![#00B6BC](https://user-images.githubusercontent.com/62628408/125963358-5164f546-a6f3-421b-bf3c-7996a9a07a5c.PNG) `#00B6BC` |
+| Transition metal         | ![#4fbb62](https://user-images.githubusercontent.com/62628408/125963454-e3544420-97cf-4acd-bd28-dad4b2096546.PNG) `#4fbb62` |
+| Post transition metals   | ![#F53951](https://user-images.githubusercontent.com/62628408/125964014-2d1218d4-e694-460f-b7bc-11541518cd03.PNG) `#F53951` |
+| Alkaline earth           | ![#00B6BC](https://user-images.githubusercontent.com/62628408/125963358-5164f546-a6f3-421b-bf3c-7996a9a07a5c.PNG) `#00B6BC` |
+| Metalloid                | ![#ffa500](https://user-images.githubusercontent.com/62628408/125964241-b14d9796-76b9-4fd7-a282-f4cd09196b01.PNG) `#ffa500` |
+| Halogen                  | ![#ff4500](https://user-images.githubusercontent.com/62628408/125964200-7d58032b-adce-4049-811c-9fbded13b486.PNG) `#ff4500` |
+| Noble gas                | ![#ce07ad](https://user-images.githubusercontent.com/62628408/125963969-75f3a397-33de-491c-98b7-eb2323e6135e.PNG) `#ce07ad` |
+| Lanthanides              | ![#ce07ad](https://user-images.githubusercontent.com/62628408/125963969-75f3a397-33de-491c-98b7-eb2323e6135e.PNG) `#ce07ad` |
+| Actinides                | ![#00B6BC](https://user-images.githubusercontent.com/62628408/125963358-5164f546-a6f3-421b-bf3c-7996a9a07a5c.PNG) `#00B6BC` |
+| Box                      | ![#ffffff80](https://user-images.githubusercontent.com/62628408/125964215-3f1d236d-ea94-4ae5-b672-18555ec65cbe.PNG) `#ffffff80`|
+
+
+
