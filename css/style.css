@@ -11,24 +11,31 @@
 
 body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size: 0.9rem;
+   font-size: 0.7rem;
    color: #fff;
    background-image: var(--bg-primary);
 }
 
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
 h1 {
    margin: 1.5rem 0;
-   text-align: center;
    font-weight: 600;
    position: relative;
 }
 
-h1 .first {
+h1 span {
    background-color: orange;
 }
 
 .number {
-   font-size: 0.6rem;
+   font-size: 0.7rem;
    font-weight: 100;
 }
 
@@ -38,7 +45,8 @@ h1 .first {
 }
 
 .element {
-   font-size: 0.6rem;
+   font-size: 0.56rem;
+   font-weight: 900;
 }
 
 .group {
@@ -48,10 +56,10 @@ h1 .first {
 
 .container {
    display: grid;
-   grid-template-columns: repeat(18, 1fr);
+   grid-template-columns: repeat(18, 70px);
    grid-auto-rows: minmax(10px, auto);
    grid-gap: 0.2rem;
-   padding: 1rem;
+   padding: 1rem 0;
 }
 
 .box {
@@ -85,7 +93,42 @@ h1 .first {
    grid-column: 13;
 }
 
-.box:nth-child(57), 
-.box:nth-child(103) {
-   border: none;
+/* Responsive */
+@media(max-width: 1350px) {
+   .container {
+      grid-template-columns: repeat(18, 60px);
+   }
+
+   .box {
+      overflow-x: hidden;
+   }
+}
+
+@media(max-width: 1300px) {
+   .box:nth-child(2) {
+      grid-column: 2;
+   }
+}
+
+@media(max-width: 1250px) {
+   .box:nth-child(5) {
+      grid-column: 5;
+   }
+
+   .box:nth-child(12) {
+      grid-row: 1;
+      grid-column: 12;
+   }
+}
+
+@media(max-width: 1230px) {
+   .container {
+      grid-template-columns: repeat(13, 70px);
+   }
+}
+
+@media(max-width: 1000px) {
+   .container {
+      grid-template-columns: repeat(7, 1fr);
+   }
 }
