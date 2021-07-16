@@ -12,13 +12,16 @@
    border: 1px solid rgba(255, 255, 255, 0.80);
 }
 
-/* Alkaline Metal */
-.alkali-metal {
-   background: orange;
+/* Alkaline Metal & Metalloid */
+.alkali-metal,
+.metalloid {
+   background: #ffa500;
 }
 
-/* Alkaline Earth */
-.alkaline-earth {
+/* Alkaline Earth, Non Metal & Actinides*/
+.alkaline-earth,
+.non-metals,
+.actinides  {
    background: #00B6BC;
 }
 
@@ -32,32 +35,13 @@
    background: #F53951;
 }
 
-/* Metalloid */
-.metalloid {
-   background: orange;
-}
-
-/* Non Metal */
-.non-metals {
-   background: #00B6BC;
-}
-
 /* Hallogen */
 .halogen {
-   background: orangered;
+   background: #ff4500;
 }
 
-/* Noble Gas */
-.noble-gas {
-   background: #ce07ad;
-}
-
-/* Lanthanides */
+/* Noble Gas & Lanthanides */
+.noble-gas,
 .lanthanides {
    background: #ce07ad;
-}
-
-/* Actinides */
-.actinides {
-   background: #00B6BC;
 }

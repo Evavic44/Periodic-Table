@@ -157,22 +157,3 @@ h1 span {
       grid-column: 3;
    }
 }
-
-/* @media(max-width: 1100px) {
-   .container {
-      grid-template-columns: repeat(7, 70px);
-   }
-
-   .box:nth-child(5) {
-      grid-column: 5;
-   }
-
-   .box:nth-child(12) {
-      grid-row: 2;
-      grid-column: 1;
-   }
-
-   .box:nth-child(13) {
-      grid-column: 10;
-   }
-} */
