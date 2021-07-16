@@ -7,176 +7,57 @@
    border-radius: 3px; 
 }
 
+.box:hover {
+   background:rgba(255, 255, 255, 0.50);
+   border: 1px solid rgba(255, 255, 255, 0.80);
+}
+
 /* Alkaline Metal */
 .alkali-metal {
-   animation: group-1 0.3s 1 2.8s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-.box:hover {
-   background:rgba(255, 255, 255, 0.20)
-}
-
-@keyframes group-1 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: orange;
-      transform: scale(1);
-   }
+   background: orange;
 }
 
 /* Alkaline Earth */
 .alkaline-earth {
-   animation: group-2 0.3s 1 3s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-2 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: #00B6BC;
-      transform: scale(1);
-   }
+   background: #00B6BC;
 }
 
 /* Transition Metals */
 .transition-metals {
-   animation: group-3 0.3s 1 3.2s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-3 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: #4fbb62;
-      transform: scale(1);
-   }
+   background: #4fbb62;
 }
 
 /* Post Transition */
 .post-transition-metals {
-   animation: group-4 0.3s 1 3.4s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-4 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: #F53951;
-      transform: scale(1);
-   }
+   background: #F53951;
 }
 
 /* Metalloid */
 .metalloid {
-   animation: group-5 0.3s 1 3.6s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-5 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: orange;
-      transform: scale(1);
-   }
+   background: orange;
 }
 
 /* Non Metal */
 .non-metals {
-   animation: group-6 0.3s 1 3.8s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-6 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: #00B6BC;
-      transform: scale(1);
-   }
+   background: #00B6BC;
 }
 
 /* Hallogen */
 .halogen {
-   animation: group-7 0.3s 1 4.0s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-7 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: orangered;
-      transform: scale(1);
-   }
+   background: orangered;
 }
 
 /* Noble Gas */
 .noble-gas {
-   animation: group-8 0.3s 1 4.2s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-8 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: #ce07ad;
-      transform: scale(1);
-   }
+   background: #ce07ad;
 }
 
 /* Lanthanides */
 .lanthanides {
-   animation: group-9 0.3s 1 4.4s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-9 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: #ce07ad;
-      transform: scale(1);
-   }
+   background: #ce07ad;
 }
 
 /* Actinides */
 .actinides {
-   animation: group-10 0.3s 1 4.6s alternate forwards cubic-bezier(0, 0, 1, 1);  
-}
-
-@keyframes group-10 {
-   from {
-      background: #ffffff00;
-      transform: scale(1.1);
-   }
-
-   to {
-      background: #00B6BC;
-      transform: scale(1);
-   }
+   background: #00B6BC;
 }
